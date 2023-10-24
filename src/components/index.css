@@ -1,0 +1,102 @@
+.form___title__text {
+  font-size: 20px !important;
+  font-weight: 700 !important;
+  /* color: #fe5858 !important; */
+  margin: 40px 0px 7px !important;
+}
+.textareas_fields::placeholder {
+  font-family: sans-serif !important;
+}
+.icons_class {
+  border: 1px solid;
+  border-radius: 15px;
+  padding: 5px !important;
+  font-size: 29px !important;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.active_amenity {
+  background: black !important ;
+  color: white !important;
+}
+.property_image_class {
+  object-fit: cover !important;
+}
+.block__container {
+  width: 55px;
+  height: 55px;
+  display: flex;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+.table__title {
+  color: rgb(61 56 56 / 87%) !important;
+  margin-left: 15px !important;
+  font-size: 22px !important;
+  font-weight: 700 !important;
+}
+.dashboard_hostizzy_properties
+  > .MuiTableHead-root
+  > .MuiTableRow-root
+  > .MuiTableCell-root {
+  font-weight: 700 !important;
+  font-size: 13px !important;
+  /* color: #5f6261 !important; */
+}
+
+.dashboard_hostizzy_properties
+  > .MuiTableBody-root
+  > .MuiTableRow-root
+  > .MuiTableCell-root {
+  /* font-weight: 700 !important; */
+  font-size: 15px !important;
+  color: #5f6261 !important;
+}
+.status__container {
+  width: 10px;
+  height: 9.5px;
+  display: flex;
+  justify-content: center;
+  border-radius: 15px;
+  color: white;
+  padding: 2px;
+  margin-right: 10px;
+}
+.active___container {
+  background: #07990af5;
+}
+.deactive___container {
+  background-color: red;
+}
+.hostizzy_task {
+  height: 50px;
+  width: 100%;
+  border-radius: 10px;
+  background-color: #eaeaea;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  /* justify-content: space-between; */
+}
+.hostizzy__task__text {
+  font-size: 14.5px !important;
+  margin-left: 6px !important;
+  color: #635e5e;
+}
+.slug__container {
+  margin-right: 12px;
+  width: 12px;
+  height: 100%;
+}
+.green_slug {
+  background-color: #65A238;
+}
+.red_slug {
+  background-color: #E03A24;
+}
+.yellow_slug{
+  background-color: #f9f10e;
+}

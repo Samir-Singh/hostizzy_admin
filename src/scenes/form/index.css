@@ -1,0 +1,92 @@
+.image-previews {
+  width: 100px;
+  height: 100px;
+  border: 2px dashed #dcdee3;
+  margin: 3px;
+  position: relative;
+}
+.image-upload-container {
+  width: 100px;
+  height: 100px;
+  z-index: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  user-select: none;
+  opacity: 0.3;
+  cursor: pointer;
+  margin: 3px;
+  border: 2px dashed #3da58a;
+}
+
+.image-upload-container .image:hover {
+  background-color: lightgray;
+}
+
+.preview-image {
+  object-fit: fill;
+  margin: 0px 2px;
+  /* position: absolute !important; */
+}
+
+/* input tag css */
+
+.ReactTags__tagInputField {
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid #c2c2c2;
+}
+.ReactTags__tagInputField ::placeholder {
+  color: #c2c2c2;
+}
+.ReactTags__selected {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.ReactTags__tag {
+  padding: 7px;
+  margin-top: inherit;
+  margin-right: 5px;
+  background: black;
+  color: white;
+  border-radius: 4px;
+  display: flex;
+  width: fit-content;
+}
+.ReactTags__remove {
+  margin-left: 10px;
+  padding: 0;
+  font-size: 23px;
+  line-height: 13px;
+  background: transparent;
+  border: none;
+  color: white;
+}
+
+/* scrollbar  */
+
+/* width */
+::-webkit-scrollbar {
+  width: 2px;
+  height: 5px !important;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 2px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #2e7c67;
+  border-radius: 2px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #2e7c67;
+}
